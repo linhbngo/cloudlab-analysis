@@ -13,10 +13,16 @@ To set up the environment, latest version of Anaconda 3 is needed. Inside Anacon
 
 pdfminer
 ```
-  conda install -c conda-forge pdfminer 
+  conda install -c conda-forge pdfminer3k
+```
+
+nltk
+```
+  conda install -c anaconda nltk 
 ```
 
 gensim
 ```
   conda install -c anaconda gensim 
 ```
+
