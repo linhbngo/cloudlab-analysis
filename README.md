@@ -28,6 +28,6 @@ gensim
 
 spacy
 ```
-  conda instll -c spacy spacy
+  conda install -c spacy spacy
   python -m spacy.en.download
 ```
