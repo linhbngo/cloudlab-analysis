@@ -5,3 +5,18 @@ This github repository contains the source code of analytical programs that anal
 # Data
 
 Data (publications, online groups, emails contents) are stored on a Goole Drive (private to group members). A configuration file (gitignored) needs to be setup inside the cloned repository to point to Google Drive's locations on individual members' computing platform. 
+
+
+# Environment
+
+To set up the environment, latest version of Anaconda 3 is needed. Inside Anaconda Navigator, the new environment uses Python 3.6. The following libraries are needed:
+
+pdfminer
+```
+  conda install -c conda-forge pdfminer 
+```
+
+gensim
+```
+  conda install -c anaconda gensim 
+```
