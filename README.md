@@ -9,11 +9,11 @@ Data (publications, online groups, emails contents) are stored on a Goole Drive 
 
 # Environment
 
-To set up the environment, latest version of Anaconda 3 is needed. Inside Anaconda Navigator, the new environment uses Python 3.6. The following libraries are needed:
+To set up the environment, latest version of Anaconda 2 is needed. Inside Anaconda Navigator, the new environment uses Python 2.7. The following libraries are needed:
 
 pdfminer
 ```
-  conda install -c conda-forge pdfminer3k
+  conda install -c conda-forge pdfminer
 ```
 
 nltk
