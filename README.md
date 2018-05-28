@@ -26,3 +26,8 @@ gensim
   conda install -c anaconda gensim 
 ```
 
+spacy
+```
+  conda instll -c spacy spacy
+  python -m spacy.en.download
+```
