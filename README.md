@@ -36,3 +36,18 @@ pyldavis
 ```
   pip install pyldavis 
 ```
+*For **pyLDAvis**, also make the following modifications to the class **NumPyEncoder** in PATH-TO-ANACONDA/envs/YOUR-ENV-NAME/lib/site-packages/pyLDAvis/utils.py:* 
+```
+  if np.iscomplexobj(obj):
+    return abs(obj)
+```
+
+matplotlib
+```
+  pip install matplotlib
+```
+
+sbs
+```
+  pip install seaborn
+```
