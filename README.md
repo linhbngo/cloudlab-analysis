@@ -31,3 +31,8 @@ spacy
   conda install -c spacy spacy
   python -m spacy.en.download
 ```
+
+pyldavis
+```
+  pip install pyldavis 
+```
